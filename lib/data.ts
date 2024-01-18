@@ -4,6 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import flippymazeImg from "@/public/flippymaze.png";
 import stocksImg from "@/public/stocks.png";
+import netflixclone from "@/public/netflixclone.jpeg"
 
 export const links = [
   {
@@ -61,6 +62,12 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Netflix Clone",
+    description: "A Fullstack Netflix Clone in Next JS with Mongo Db and Prisma",
+    tags: ["NextJs","MongoDB","Clone"],
+    imageUrl: netflixclone,
+  },
+  {
     title: "Flippy Maze",
     description:
       "A 2D based maze game created in Unity game engine and deployed on Github",
@@ -90,6 +97,7 @@ export const skillsData = [
   "Flask",
   "C#",
   "Lua",
+  "Mongo DB",
   "Blender",
   "Python",
   "Framer Motion",
